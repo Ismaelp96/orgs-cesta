@@ -24,7 +24,7 @@ export default StyleSheet.create({
     fontSize: 26,
     lineHeight: 42,
     color: '#464646',
-    fontFamily: 'MontserratBold',
+    fontWeight: 'bold',
   },
   fazenda: {
     flexDirection: 'row',
@@ -38,7 +38,6 @@ export default StyleSheet.create({
   farmName: {
     fontSize: 16,
     lineHeight: 26,
-    fontFamily: 'MontserratRegular',
   },
   descricao: {
     color: '#a3a3a3',
@@ -47,9 +46,9 @@ export default StyleSheet.create({
   },
   price: {
     color: '#2a9f85',
-    fontWeight: 'bold',
     fontSize: 26,
     lineHeight: 42,
     marginTop: 8,
+    fontWeight: 'bold',
   },
 })
