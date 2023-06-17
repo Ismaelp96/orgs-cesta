@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, View } from 'react-native'
+import { Image, View, TouchableOpacity } from 'react-native'
 
 import Texto from '../../../components/font/Texto'
 import style from '../style'
@@ -10,6 +10,7 @@ export default function Details({
   farmName,
   descricao,
   price,
+  botao,
 }) {
   return (
     <>
@@ -18,9 +19,11 @@ export default function Details({
         <Image style={style.farmImg} source={logoFarm} />
         <Texto style={style.farmName}>{farmName}</Texto>
       </View>
-
       <Texto style={style.descricao}>{descricao}</Texto>
       <Texto style={style.price}>{price} </Texto>
+      <TouchableOpacity style={style.botao}>
+        <Texto style={style.textoBotao}>{botao}</Texto>
+      </TouchableOpacity>
     </>
   )
 }

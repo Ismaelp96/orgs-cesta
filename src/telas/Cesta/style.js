@@ -40,15 +40,28 @@ export default StyleSheet.create({
     lineHeight: 26,
   },
   descricao: {
-    color: '#a3a3a3',
+    color: '#A3A3A3',
     fontSize: 16,
     lineHeight: 26,
   },
   price: {
-    color: '#2a9f85',
+    color: '#2A9F85',
     fontSize: 26,
     lineHeight: 42,
     marginTop: 8,
     fontWeight: 'bold',
+  },
+  botao: {
+    backgroundColor: '#2A9F85',
+    marginTop: 16,
+    paddingVertical: 16,
+    borderRadius: 6,
+  },
+  textoBotao: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 16,
+    lineHeight: 26,
+    textAlign: 'center',
   },
 })
