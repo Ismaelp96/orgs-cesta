@@ -6,12 +6,12 @@ import style from './style'
 import Top from './components/Top'
 import Details from './components/Details'
 
-export default function Cesta() {
+export default function Cesta({ top, details }) {
   return (
     <>
-      <Top />
+      <Top {...top} />
       <View style={style.cesta}>
-        <Details />
+        <Details {...details} />
       </View>
     </>
   )
