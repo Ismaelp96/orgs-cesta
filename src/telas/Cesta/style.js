@@ -51,17 +51,29 @@ export default StyleSheet.create({
     marginTop: 8,
     fontWeight: 'bold',
   },
-  botao: {
-    backgroundColor: '#2A9F85',
-    marginTop: 16,
-    paddingVertical: 16,
-    borderRadius: 6,
-  },
-  textoBotao: {
-    color: '#FFFFFF',
+  listaTitle: {
+    color: '#464646',
     fontWeight: 'bold',
+    marginTop: 32,
+    marginBottom: 8,
+    fontSize: 20,
+    lineHeight: 32,
+  },
+  itemList: {
+    flexDirection: 'row',
+    borderBottomWidth: 1,
+    borderBottomColor: '#ECECEC',
+    paddingVertical: 16,
+    alignItems: 'center',
+  },
+  imagemList: {
+    width: 46,
+    height: 46,
+  },
+  nomeList: {
     fontSize: 16,
     lineHeight: 26,
-    textAlign: 'center',
+    marginLeft: 11,
+    color: '#464646',
   },
 })

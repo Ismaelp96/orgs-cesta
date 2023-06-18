@@ -1,7 +1,8 @@
 import React from 'react'
-import { Image, View, TouchableOpacity } from 'react-native'
+import { Image, View } from 'react-native'
 
 import Texto from '../../../components/font/Texto'
+import Botao from '../../../components/button/Botao'
 import style from '../style'
 
 export default function Details({
@@ -21,9 +22,7 @@ export default function Details({
       </View>
       <Texto style={style.descricao}>{descricao}</Texto>
       <Texto style={style.price}>{price} </Texto>
-      <TouchableOpacity style={style.botao}>
-        <Texto style={style.textoBotao}>{botao}</Texto>
-      </TouchableOpacity>
+      <Botao texto={botao} onPress={() => {}} />
     </>
   )
 }
