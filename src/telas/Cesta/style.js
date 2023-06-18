@@ -64,6 +64,7 @@ export default StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: '#ECECEC',
     paddingVertical: 16,
+    marginHorizontal: 14,
     alignItems: 'center',
   },
   imagemList: {
